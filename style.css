@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;    
+    background-color: #131522;
+    height: 60px;
+    color: #F7F7FF;
+    
+}
+
+.container-header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.container-header-a{
+    color: #F7F7FF;
+}
+
+.container-header-p{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 0 10px 0 10px;    
+}
+
+.enter{
+    
+    text-decoration-line: underline;
+    text-decoration-color: #F7F7FF;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+    width:  100vw;
+    background: #131522;
+}
+
+.login-card{   
+    border: solid #f9931c;
+    border-style: dotted;
+    display: grid;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.login-card-form{
+    border-radius: 5px;
+    border-color: #F7F7FF;
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+    padding: 10px;
+}
+
+.form-title{
+    justify-self: center;
+    color: #F7F7FF;
+    font-family: sans-serif;
+
+}
+
+.form-input {
+    margin-bottom: 10px;    
+}
+
+.form-input::placeholder{
+    padding-left: 5px;
+}
+
+.form-input,
+.form-button{
+    height: 30px;
+}
+
+.form-button {
+    background-color: #f9931c;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #F7F7FF;
+}
+
+/* choice */
+.client-card,
+.product-card{    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #131522;
+    border-style: dotted;
+    border-radius: 5px;
+    margin: 0 50px 0 50px; 
+    color: #F7F7FF;
+    font-weight: 600;
+
+    transition: 1s;
+}
+
+.img-card{
+    padding: 10px;
+}
+
+.client-card:hover,
+.product-card:hover{
+    cursor: pointer;
+    
+    transition: 1s;
+    transform: translate(10px) scale(1.2);
+}
+
+
+
+/* Footer */
+footer{
+    height: 50px;
+    padding: 25px;
+    background-color:	#152742;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image-gama{
+    padding-left: 150px;
+    padding-right:  50px;
+}
+
+.footer-image-vtex{
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+.footer-p{
+    justify-content:  center;
+    color: #F7F7FF;
+}
