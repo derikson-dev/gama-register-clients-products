@@ -15,8 +15,11 @@ clientForm.addEventListener('submit', (event) => {
         email
     }
 
-    let dataToJSON = JSON.stringify(clientData);
+    let dataToJSON = JSON.stringify(clientData)
 
     localStorage.setItem('clientDatabase', dataToJSON)
-})
 
+    alert('Cliente cadastrado com sucesso!')
+
+    document.getElementById('client-form').reset()
+})

@@ -20,4 +20,8 @@ productForm.addEventListener('submit', (event) => {
     let dataToJSON = JSON.stringify(productData)
 
     localStorage.setItem('productDatabase' ,dataToJSON)
+
+    alert('Produto cadastrado com sucesso!')
+
+    document.getElementById('product-form').reset()
 })
