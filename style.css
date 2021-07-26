@@ -35,12 +35,6 @@ body{
     padding: 0 10px 0 10px;    
 }
 
-.enter{
-    
-    text-decoration-line: underline;
-    text-decoration-color: #F7F7FF;
-}
-
 .container{
     display: flex;
     align-items: center;
@@ -53,6 +47,7 @@ body{
 .login-card{   
     border: solid #f9931c;
     border-style: dotted;
+    border-radius: 5px;
     display: grid;
     align-items: center;
     height: 200px;
