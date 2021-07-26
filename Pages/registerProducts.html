@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+
     <title>Cadastro de Produto</title>
 </head>
 <body>
-    <h1>CADASTRO DE PRODUTO</h1>    
+    <header class="container-header">        
+        <div class="container-header-logo">
+            <img src="../Images/Logo/logo.png" alt="Logo">
+        </div>
+        <div class="container-header-menu">
+            <a class="container-header-a" href="../index.html">
+                <p class="container-header-p enter">Sair</p>
+            </a>
+        </div>
+    </header>
+    <section class="container client-container">
+        <div>
+            <img src="../Images/Choice/product-orange.png" alt="">
+        </div>
+        <div class="product-card">
+            <h1 class="form-title">CADASTRO DE PRODUTO</h1>
+            <form action="./choice.html" class="login-card-form">
+                <input class="form-input" type="text" placeholder="Produto">
+                <input class="form-input" type="text" placeholder="Marca">
+                <input class="form-input" type="text" placeholder="Modelo">
+                <input class="form-input" type="text" placeholder="Especificação técnica">
+                <input class="form-input" type="number" placeholder="Código">
+                <button class="form-button" type="submit">Cadastrar</button>
+            </form>            
+        </div>     
+        
+    </section>
+    <footer>
+        <img class="footer-image-gama" src="../Images/Footer-logo/gama-academy-logo50px.png" alt="Logotipo Gama Academy">
+        <p class="footer-p"> Projeto Hiring Coders - Uma parceria Gama Academy e VTEX </p>        
+        <img class="footer-image-vtex" src="../Images/Footer-logo/vtex-logo50px.png" alt="Logotipo VTEX">
+    </footer>
 </body>
+<script src="../Scripts/script.js"></script>
 </html>
