@@ -8,13 +8,15 @@ productForm.addEventListener('submit', (event) => {
     let model = document.getElementById('model').value
     let spec = document.getElementById('spec').value
     let code = document.getElementById('code').value
+    let price = document.getElementById('price').value
 
     let productData = {
         product,
         brand,
         model,
         spec,
-        code
+        code,
+        price
     }
 
     let dataToJSON = JSON.stringify(productData)
